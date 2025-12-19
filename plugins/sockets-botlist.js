@@ -158,7 +158,7 @@ ${subBots.length > 0 ? subBots.join("\n") : "✧ No hay SubBots conectados actua
     await conn.sendMessage(
       m.chat,
       {
-        image: { url: 'https://qu.ax/TPfmC.jpg' },
+        image: { url: 'https://files.catbox.moe/rhzkn4.jpg' },
         caption: message.trim(),
         mentions: mentionList,
         fileName: 'sockets.jpg',
