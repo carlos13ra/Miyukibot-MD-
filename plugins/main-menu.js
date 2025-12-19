@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
     let mentionedJid = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
     let totalCommands = Object.keys(global.plugins).length
     const iconos = [
-      'https://qu.ax/TPfmC.jpg'
+      'https://files.catbox.moe/7v1oif.jpg'
     ]
     const randomIcono = iconos[Math.floor(Math.random() * iconos.length)]
 
@@ -373,7 +373,7 @@ let handler = async (m, { conn }) => {
 await conn.sendMessage(
   m.chat,
   {
-    video: { url: 'https://qu.ax/AjjHr.mp4' },
+    video: { url: 'https://files.catbox.moe/ts8szw.mp4' },
     caption: menu,
     gifPlayback: true,
     gifAttribution: 0,
